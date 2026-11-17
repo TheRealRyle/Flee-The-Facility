@@ -10,12 +10,14 @@
 class Game {
     Application application = Application();
     std::unique_ptr<Map> map = std::make_unique<Map>();
-    bool running = false;
 public:
+    static bool running;
+    static SDL_Renderer* GetRenderer();
+
     Game();
     ~Game();
 
-    void Run();
+    void Run() const;
 };
 
 #endif //CPPGAME_GAME_H

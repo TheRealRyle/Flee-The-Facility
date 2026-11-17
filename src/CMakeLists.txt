@@ -4,4 +4,31 @@ add_executable(CppGame main.cpp
         Game.cpp
         Game.h
         Map.cpp
-        Map.h)
+        Map.h
+        Vector2d.cpp
+        Vector2d.h
+        Services/Players.cpp
+        Services/Players.h
+        Services/Camera.cpp
+        Services/Camera.h
+        Services/Hitbox.cpp
+        Services/Hitbox.h
+        Services/Instance.cpp
+        Services/Instance.h
+        Services/Instances/Part.cpp
+        Services/Instances/Part.h
+        Services/Image.cpp
+        Services/Image.h
+        Services/TextureHandler.cpp
+        Services/TextureHandler.h
+        Shared/Utils.cpp
+        Shared/Utils.h
+        Shared/StringFunctions.cpp
+        Shared/StringFunctions.h
+        Services/Instances/ImagePart.cpp
+        Services/Instances/ImagePart.h
+        Services/InputActionService.cpp
+        Services/InputActionService.h
+        Shared/Signal.cpp
+        Shared/Signal.h
+)
